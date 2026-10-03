@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/assets/cdut-emblem.png" alt="成都理工大学校徽" width="160"></p>
+
 # 成都理工大学飞跃手册
 
 **写给正在寻找下一步方向的成理同学。**

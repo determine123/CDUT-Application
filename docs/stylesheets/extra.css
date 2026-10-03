@@ -1,1 +1,16 @@
 .md-typeset{line-height:1.9;font-size:.82rem}.md-typeset h1{font-weight:700}.md-typeset blockquote{border-left-color:#00897b}
+.cdut-cover{min-height:100svh;display:flex;align-items:center;justify-content:center;text-align:center;padding:48px 24px;background:linear-gradient(120deg,#f0fbff,#f1fcf4);color:#294562}
+.cdut-cover__inner{width:100%;max-width:760px}
+.cdut-cover__emblem{display:block;width:clamp(145px,22vw,220px);height:auto;margin:0 auto 24px;border-radius:50%}
+.cdut-cover__university{font-size:22px;letter-spacing:.25em;margin:0 0 14px}
+.cdut-cover h1{font-size:clamp(25px,4vw,36px);font-weight:500;line-height:1.5;margin:0 0 18px}
+.cdut-cover__english{font-size:18px;letter-spacing:.05em;margin:0 0 16px}
+.cdut-cover__description{font-size:16px;margin:0 0 30px}
+.cdut-cover__actions{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+.cdut-cover__actions a{display:inline-block;border-radius:30px;padding:12px 30px;font-size:16px;transition:background .15s}
+.cdut-cover__read{background:#3bb58c;color:#fff!important}
+.cdut-cover__read:hover{background:#249f78}
+.cdut-cover__github{border:1px solid #3bb58c;color:#237d65!important}
+.cdut-cover__note{font-size:12px;margin-top:28px;opacity:.75}
+.cdut-content-anchor{scroll-margin-top:0}
+@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}

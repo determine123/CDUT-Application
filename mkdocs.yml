@@ -15,7 +15,8 @@
       "navigation.top",
       "search.highlight",
       "content.action.edit"
-    ]
+    ],
+    "custom_dir": "overrides"
   },
   "plugins": [
     {

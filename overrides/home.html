@@ -1,0 +1,20 @@
+{% extends "main.html" %}
+
+{% block header %}
+<section class="cdut-cover" aria-labelledby="cover-title">
+  <div class="cdut-cover__inner">
+    <img class="cdut-cover__emblem" src="{{ 'assets/cdut-emblem.png' | url }}" alt="成都理工大学校徽" width="220" height="220">
+    <p class="cdut-cover__university">成都理工大学</p>
+    <h1 id="cover-title">成都理工大学飞跃手册</h1>
+    <p class="cdut-cover__english">CDUT Application Wiki</p>
+    <p class="cdut-cover__description">记录不同的选择，分享真实的经历。</p>
+    <div class="cdut-cover__actions">
+      <a class="cdut-cover__read" href="#handbook-content">进入阅读</a>
+      <a class="cdut-cover__github" href="{{ config.repo_url }}">GitHub</a>
+    </div>
+    <p class="cdut-cover__note">学生共建 · 非学校官方文件</p>
+  </div>
+</section>
+<div id="handbook-content" class="cdut-content-anchor"></div>
+{{ super() }}
+{% endblock %}
