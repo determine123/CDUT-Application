@@ -11,7 +11,12 @@ for page in (root/'docs').rglob('*.md'):
   target=(page.parent/unquote(url)).resolve()
   if not target.is_relative_to(root/'docs') or not target.exists():errors.append(f'{page}: {url}')
 config=json.loads((root/'mkdocs.yml').read_text(encoding='utf-8'))
-listed={v for item in config['nav'] for v in item.values()}
+def nav_pages(items):
+ for item in items:
+  for value in item.values():
+   if isinstance(value,list):yield from nav_pages(value)
+   else:yield value
+listed=set(nav_pages(config['nav']))
 for page in listed:
  if not (root/'docs'/page).is_file():errors.append('nav: '+page)
 for page in (root/'docs').rglob('*.md'):

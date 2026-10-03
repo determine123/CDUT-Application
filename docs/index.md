@@ -1,47 +1,44 @@
 # 成都理工大学飞跃手册
 
-由 determine 发起的学生共建手册，面向成都理工大学，非学校官方文件。整理日期：2026-10-03。
+**写给正在寻找下一步方向的成理同学。**
 
-围绕在校学习、发展选择与办理事务提供可执行的清单。内容优先，作者背景仅在个人案例中说明。
+这本手册希望把各院系同学在升学、实习和工作中的准备、选择、挫折与收获留下来。申请结果重要，走到结果之前做过什么、遇到什么限制，以及后来如何看待这些选择，同样重要。
 
-## 项目缘起与致谢
+## 飞跃手册是什么？
 
-本项目受到[上海交通大学生存手册](https://github.com/SurviveSJTU/SurviveSJTUManual)与[上海交通大学飞跃手册](https://github.com/SurviveSJTU/SJTU-Application)的启发，分为成都理工大学生存指南与飞跃手册两个独立仓库，希望持续收录成都理工大学各院系同学不同出路的真实经验。
+这里的“飞跃”不限于进入哪一所学校，也不限于某种成绩或排名。我们希望收录考研、推免、直博、境外升学、就业与实习等不同去向，也欢迎失败、退出、重新选择和毕业后转向的经历。
 
-内容组织参考[南方科技大学飞跃手册](https://github.com/SUSTech-Application/2019-Fall)和[成理工程生存指南 & 飞跃手册](https://github.com/cdutetc-tieba/CDUTETC-Guide)。感谢这些项目的作者与贡献者，也感谢 Codex、Claude Code、DeepSeek Harness 等 AI 开发工具为个人学习与初版探索提供的帮助。本站实际代码与文字整理由 Codex 辅助完成；这项致谢不代表这些工具提供方参与维护或认可本站内容。
+本册主要参考[上海交通大学飞跃手册](https://survivesjtu.github.io/SJTU-Application/#/)的组织思路：以个人经验为核心，按专业背景和出路整理，再用通用资料帮助读者理解。两校的培养与申请条件不同，交大案例不归入成理案例。
 
-早期保留上述项目的**参考样本入口**，供投稿者理解结构与写法；这些入口标明原校与原作者，不计为成理案例。取得转载许可前不复制全文。待成理原创投稿逐步充实后，减少首页样本入口，保留来源与致谢记录。
+## 先读真实经历，再查准备方法
 
-## 从这里开始
+- [个人总结与案例目录](experience/index.md)：已发布的亲历分享。
+- [按专业背景浏览](experience/subjects.md)：理解不同课程与项目背景下的选择。
+- [2022 级同届去向线索](experience/cohort-2022.md)：已知去向、投稿状态与尚缺的信息。
+- [考研准备](domestic/exam.md)、[推免与夏令营](domestic/recommendation.md)、[直博与研究训练](domestic/phd.md)。
+- [境外申请](abroad/overview.md)、[海外交流与暑期科研](abroad/exchange.md)。
+- [就业与实习](career/internships.md)、[简历作品集](career/resume.md)、[面试复盘](career/interview.md)。
 
-- [升学与就业：主方案与备用方案](planning/routes.md)
-- [准备时间线与材料账本](planning/timeline.md)
-- [考研：选校、备考与复试](domestic/exam.md)
-- [推免、夏令营与预推免](domestic/recommendation.md)
-- [选导师与科研匹配](domestic/supervisor.md)
-- [境外申请：项目、文书与预算](abroad/overview.md)
-- [简历与作品集](career/resume.md)
-- [寻找实习与投递复盘](career/internships.md)
-- [面试准备与结果复盘](career/interview.md)
-- [人工智能、开发与交叉方向](career/ai.md)
-- [本科到研究生的过渡](graduate/transition.md)
-- [determine：2022 成理到 2026 上交](experience/determine.md)
+## 当前收录情况
 
-## 深入阅读
+目前有一篇由作者确认的成理到上交考研路径记录。发起人还提供了同届同学考研到西安交通大学、四川大学，以及推免到浙江大学的去向线索；这些尚不是当事人的经验投稿，未计入已发布案例，详情见线索页。
 
-- [考研复习计划与自测方法](domestic/exam-plan.md)
-- [申请材料核对与公开分享边界](planning/materials.md)
-- [把项目变成能被理解的能力证据](career/project-proof.md)
-- [录取、退出与转向之后怎样复盘](planning/decision-review.md)
+我们不会为了填满目录而补写分数、录取专业、准备过程或姓名。欢迎当事人自愿匿名分享，背景可以适度模糊。
 
-## 使用说明
-先看适用背景，再用问题清单向学院或目标单位核对。顶部支持全文搜索，侧栏提供完整导航。政策定位见[来源记录](resources/sources.md)，投稿见[贡献说明](contribute/index.md)。
+## 如何分享你的故事？
 
-本册通用方法已成文，真实案例目前只有作者一例。未经核实的年份、门槛与案例不编写成事实。
+从[经验分享提纲](contribute/interview.md)开始，说明年份、专业背景、申请路径、个人行动、结果与局限。不熟悉 Git 可以通过 issue 提交愿意公开的文字；熟悉 Git 可按[投稿流程](contribute/index.md)提交 PR。材料需本人授权，未投稿的同学不公开身份。
 
-## 参考样本
+我们更想听到怎样确定目标、怎样应对信息差、怎样协调课程与准备、哪些尝试没有成功，以及进入研究生或工作之后的新认识。无需写成励志故事，也无需证明自己足够优秀。
 
-[查看原项目样本入口](resources/samples.md)
+## 怎样阅读？
 
-## 另一册
-[成都理工大学生存指南](https://determine123.github.io/CDUT-Survival-Guide/) 独立维护，与本册互相链接。
+每篇经验都有时间与适用背景。旧案例不能预测当前录取概率；政策、名额、时间与资格须核对当年目标单位文件。通用建议与个人经历分开标注，来源见[官方入口](resources/sources.md)。
+
+## 来源、样本与致谢
+
+感谢[交大生存手册](https://github.com/SurviveSJTU/SurviveSJTUManual)、[交大飞跃手册](https://github.com/SurviveSJTU/SJTU-Application)、[南科大飞跃手册](https://github.com/SUSTech-Application/2019-Fall)及[成理工程指南](https://github.com/cdutetc-tieba/CDUTETC-Guide)的作者与贡献者。
+
+早期通过[参考样本入口](resources/samples.md)阅读原项目，不把其他学校的经历当成成理投稿。本站采用独立网页实现，主要借鉴交大飞跃手册的内容组织，不声称使用其网页模板源码。感谢 Codex、Claude Code、DeepSeek Harness 等工具为个人学习与初版探索提供帮助；本次实现与文字整理由 Codex 辅助完成。
+
+[成都理工大学生存指南](https://determine123.github.io/CDUT-Survival-Guide/)另行覆盖在校学习、生活与毕业规划。本项目为学生共建，非学校官方文件。

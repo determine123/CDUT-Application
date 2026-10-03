@@ -32,70 +32,116 @@
       "首页": "index.md"
     },
     {
-      "升学与就业：主方案与备用方案": "planning/routes.md"
+      "个人总结": [
+        {
+          "案例目录": "experience/index.md"
+        },
+        {
+          "按专业背景": "experience/subjects.md"
+        },
+        {
+          "2022 级同届线索": "experience/cohort-2022.md"
+        },
+        {
+          "成理到上交 · 考研": "experience/determine.md"
+        }
+      ]
     },
     {
-      "准备时间线与材料账本": "planning/timeline.md"
+      "国内升学": [
+        {
+          "考研准备": "domestic/exam.md"
+        },
+        {
+          "考研计划与自测": "domestic/exam-plan.md"
+        },
+        {
+          "推免与夏令营": "domestic/recommendation.md"
+        },
+        {
+          "直博与研究训练": "domestic/phd.md"
+        },
+        {
+          "选导师": "domestic/supervisor.md"
+        }
+      ]
     },
     {
-      "考研：选校、备考与复试": "domestic/exam.md"
+      "境外与交流": [
+        {
+          "学位申请": "abroad/overview.md"
+        },
+        {
+          "交流、暑校与暑研": "abroad/exchange.md"
+        }
+      ]
     },
     {
-      "推免、夏令营与预推免": "domestic/recommendation.md"
+      "就业与实习": [
+        {
+          "寻找实习": "career/internships.md"
+        },
+        {
+          "简历与作品集": "career/resume.md"
+        },
+        {
+          "面试复盘": "career/interview.md"
+        },
+        {
+          "人工智能与交叉方向": "career/ai.md"
+        },
+        {
+          "项目能力证据": "career/project-proof.md"
+        }
+      ]
     },
     {
-      "选导师与科研匹配": "domestic/supervisor.md"
+      "规划与研究生生活": [
+        {
+          "主方案与备用": "planning/routes.md"
+        },
+        {
+          "时间线与账本": "planning/timeline.md"
+        },
+        {
+          "申请材料": "planning/materials.md"
+        },
+        {
+          "结果与转向": "planning/decision-review.md"
+        },
+        {
+          "研究生过渡": "graduate/transition.md"
+        }
+      ]
     },
     {
-      "境外申请：项目、文书与预算": "abroad/overview.md"
+      "分享你的经历": [
+        {
+          "访谈与写作提纲": "contribute/interview.md"
+        },
+        {
+          "投稿流程": "contribute/index.md"
+        },
+        {
+          "模板": "contribute/templates.md"
+        }
+      ]
     },
     {
-      "简历与作品集": "career/resume.md"
-    },
-    {
-      "寻找实习与投递复盘": "career/internships.md"
-    },
-    {
-      "面试准备与结果复盘": "career/interview.md"
-    },
-    {
-      "人工智能、开发与交叉方向": "career/ai.md"
-    },
-    {
-      "本科到研究生的过渡": "graduate/transition.md"
-    },
-    {
-      "determine：2022 成理到 2026 上交": "experience/determine.md"
-    },
-    {
-      "考研复习计划与自测方法": "domestic/exam-plan.md"
-    },
-    {
-      "申请材料核对与公开分享边界": "planning/materials.md"
-    },
-    {
-      "把项目变成能被理解的能力证据": "career/project-proof.md"
-    },
-    {
-      "录取、退出与转向之后怎样复盘": "planning/decision-review.md"
-    },
-    {
-      "官方入口与核查记录": "resources/sources.md"
-    },
-    {
-      "参考与许可说明": "resources/references.md"
-    },
-    {
-      "投稿与维护": "contribute/index.md"
-    },
-    {
-      "投稿模板": "contribute/templates.md"
-    },
-    {
-      "初版范围与待补充内容": "resources/roadmap.md"
-    },
-    {
-      "参考样本入口": "resources/samples.md"
+      "资料与维护": [
+        {
+          "官方入口": "resources/sources.md"
+        },
+        {
+          "来源与许可": "resources/references.md"
+        },
+        {
+          "原项目参考样本": "resources/samples.md"
+        },
+        {
+          "待补充内容": "resources/roadmap.md"
+        }
+      ]
     }
   ],
   "extra_css": [
