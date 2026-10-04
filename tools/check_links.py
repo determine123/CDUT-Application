@@ -1,11 +1,23 @@
+from html.parser import HTMLParser
 from pathlib import Path
-import re,json
+import json
+import markdown
 from urllib.parse import unquote, urlsplit
 root=Path(__file__).resolve().parents[1]
+class Links(HTMLParser):
+ def __init__(self):
+  super().__init__();self.urls=[]
+ def handle_starttag(self,tag,attrs):
+  key={'a':'href','img':'src'}.get(tag)
+  if key:
+   value=dict(attrs).get(key)
+   if value:self.urls.append(value)
+
 errors=[]
 for page in (root/'docs').rglob('*.md'):
- text=re.sub(r'```.*?```','',page.read_text(encoding='utf-8'),flags=re.S)
- for url in re.findall(r'!?\[[^\]]*\]\(([^)]+)\)',text):
+ links=Links()
+ links.feed(markdown.markdown(page.read_text(encoding='utf-8'),extensions=['fenced_code']))
+ for url in links.urls:
   parts=urlsplit(url)
   if parts.scheme or parts.netloc:continue
   url=parts.path
