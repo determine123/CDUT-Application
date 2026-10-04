@@ -1,13 +1,15 @@
 from pathlib import Path
 import re,json
-from urllib.parse import unquote
+from urllib.parse import unquote, urlsplit
 root=Path(__file__).resolve().parents[1]
 errors=[]
 for page in (root/'docs').rglob('*.md'):
  text=re.sub(r'```.*?```','',page.read_text(encoding='utf-8'),flags=re.S)
  for url in re.findall(r'!?\[[^\]]*\]\(([^)]+)\)',text):
-  url=url.split('#')[0].split('?')[0]
-  if not url or re.match(r'^[a-zA-Z][a-zA-Z0-9+.-]*:',url):continue
+  parts=urlsplit(url)
+  if parts.scheme or parts.netloc:continue
+  url=parts.path
+  if not url:continue
   target=(page.parent/unquote(url)).resolve()
   if not target.is_relative_to(root/'docs') or not target.exists():errors.append(f'{page}: {url}')
 config=json.loads((root/'mkdocs.yml').read_text(encoding='utf-8'))
